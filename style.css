@@ -1,0 +1,320 @@
+/*Mudei a barra de rolagem*/
+body::-webkit-scrollbar {
+    width: 12px;
+    /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+    background: rgb(209, 204, 194);
+    /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: rgba(24, 146, 85, 1);
+    /* color of the scroll thumb */
+    border-radius: 5px;
+    /* roundness of the scroll thumb */
+}
+
+/*pré definições*/
+* {
+    margin: 0%;
+}
+
+/*topo*/
+/*#logo {
+    display: inline-block;
+    display: flex;
+    width: 75px;
+    height: 75px;
+    position: relative;
+    margin-left: 46%;
+    background-color: rgb(209, 204, 194);
+    border-radius: 25px;
+    padding: 5px;
+    box-shadow: 1px 2px 5px black;
+}
+
+#logo:hover {
+    margin-left: 38%;
+    width: 195px;
+    height: 195px;
+    padding: 50px;
+}
+
+header {
+    background: rgb(2, 0, 36);
+    background: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(12, 66, 58, 1) 20%, rgba(24, 146, 85, 1) 50%, rgba(0, 23, 18, 1) 100%);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+retirei o logo, tá maito feio
+*/
+
+
+/*pagina inicial*/
+.fundo-tela {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 750px;
+    background-image: url(img/foto-projeto-tela\ inicial.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+#fundo-cinza-1 {
+    position: relative;
+    display: inline-block;
+    background-color: rgba(192, 192, 192, 0.836);
+    height: 750px;
+    margin-right: 35%;
+}
+
+#titulo-1 {
+    font-size: 64px;
+    /*text-shadow: 2px 2px 20px #000000;*/
+    color: rgba(24, 146, 85, 1);
+    padding-left: 4%;
+    padding-top: 25%;
+
+}
+
+#texto-inicial {
+    position: relative;
+    padding-top: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: justify;
+}
+
+a {
+    position: relative;
+    display: inline-block;
+    margin-top: 20%;
+    margin-left: 43%;
+    background-color: rgba(24, 146, 85, 1);
+    border-radius: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    ;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    padding-left: 23px;
+    padding-right: 25px;
+    padding-bottom: 10px;
+    box-shadow: 2px 2px 20px #000000;
+}
+
+/*secao 2/ quem somos*/
+.fundo-tela-2 {
+    display: inline-block;
+    width: 100%;
+    height: 790px;
+    background-image: url(img/projeto-segunda\ tela.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#box-quem-somos {
+    border-radius: 15px;
+    position: relative;
+    height: 80%;
+    width: 90%;
+    background-color: rgba(192, 192, 192, 0.836);
+    margin-left: 5%;
+    margin-top: 9%;
+}
+
+.mvv {
+    position: relative;
+    display: inline-block;
+    text-align: justify;
+    height: 80%;
+    width: 33%;
+}
+
+.text-mvv {
+    font-size: 1.5em;
+    padding-top: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 25%;
+}
+
+#titulo-2 {
+    font-size: 50px;
+    /*text-shadow: 2px 2px 20px #000000;*/
+    color: rgba(24, 146, 85, 1);
+    padding-left: 40%;
+    padding-top: 5%;
+}
+
+h3 {
+    font-size: 30px;
+    color: rgba(24, 146, 85, 1);
+    padding-left: 40%;
+}
+
+/*seçao 3 / produtos*/
+.container {
+    display: inline-block;
+    background-color: rgba(192, 192, 192, 0.911);
+    width: 100%;
+    height: 790px;
+    margin: 0%;
+}
+
+.produtos {
+    display: flex;
+    border-radius: 25px;
+    box-shadow: 2px 2px 10px #000000;
+    margin-top: 5%;
+    margin-left: 5%;
+    background-color: rgba(250, 242, 242, 0.616);
+    height: 650px;
+    width: 90%;
+}
+
+figure {
+    margin-left: 5%;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 25px;
+    width: 300px;
+    height: 200px;
+}
+
+.case-produtos {
+    margin-top: 10%;
+
+}
+
+.img-e-botao {
+    padding-top: 1%;
+    padding-left: 7%;
+}
+
+.img-e-botao a {
+    margin-top: 2%;
+    text-align: center;
+    margin-left: 30%;
+    width: 100px;
+    height: 10px;
+    padding-top: 1%;
+
+}
+
+.img-e-botao p {
+    font-size: 35px;
+    padding-left: 33%;
+    color: rgba(24, 146, 85, 1);
+}
+
+.texto-produto {
+    padding-top: 1%;
+    padding-left: 1%;
+}
+
+.texto-produto h3 {
+    padding-left: 5%;
+}
+
+.texto-produto p {
+    text-align: justify;
+    font-size: 15px;
+    padding: 5%;
+}
+
+/*secao 4 formulario*/
+.fundo-tela-3 {
+    display: inline-block;
+    width: 100%;
+    height: 780px;
+    background-image: url(img/projeto-\ terceira\ tela.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.case-form {
+    margin-top: 5%;
+    margin-left: 3%;
+    width: 50%;
+    height: 600px;
+    background-color: rgba(250, 242, 242, 0.616);
+    border-radius: 25px;
+    box-shadow: 2px 2px 10px #000000;
+}
+
+form {
+    padding-top: 5%;
+    padding-left: 5%;
+}
+
+label {
+    font-size: 25px;
+}
+
+input {
+    width: 90%;
+    border: 1px solid rgba(24, 146, 85, 1);
+    border-radius: 10px;
+    background-color: rgba(250, 242, 242, 0.616);
+    margin-top: 1%;
+}
+
+#cnome {
+    height: 35px;
+
+}
+
+#cemail {
+    height: 35px;
+}
+
+#cassunto {
+    height: 35px;
+}
+
+#ctextarea{
+    border: 1px solid rgba(24, 146, 85, 1);
+    border-radius: 5px;
+    background-color: rgba(250, 242, 242, 0.616);
+    margin-top: 1%; 
+    height: 255px;
+}
+.case-form a {
+    background-color: rgba(250, 242, 242, 0.616);
+    border: 1px solid rgba(24, 146, 85, 1);
+    margin-top: 1%;
+}
+
+.case-form a:hover {
+    padding: 1%;
+    box-shadow: none;
+}
+
+.formulario {
+    display: flex;
+}
+
+.formulario h2 {
+    padding-top: 35%;
+    padding-left: 5%;
+    font-size: 50px;
+    color: rgba(24, 146, 85, 1);
+}
+
+.formulario p {
+    padding-left: 3%;
+    font-size: 23px;
+    color: white;
+}
