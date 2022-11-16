@@ -20,37 +20,32 @@ body::-webkit-scrollbar-thumb {
 * {
     margin: 0%;
 }
-
 /*topo*/
-/*#logo {
-    display: inline-block;
-    display: flex;
-    width: 75px;
-    height: 75px;
-    position: relative;
-    margin-left: 46%;
-    background-color: rgb(209, 204, 194);
-    border-radius: 25px;
-    padding: 5px;
-    box-shadow: 1px 2px 5px black;
+#logo {
+    width: 150px;
+    height: 150px;
 }
-
-#logo:hover {
-    margin-left: 38%;
-    width: 195px;
-    height: 195px;
-    padding: 50px;
-}
-
 header {
-    background: rgb(2, 0, 36);
-    background: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(12, 66, 58, 1) 20%, rgba(24, 146, 85, 1) 50%, rgba(0, 23, 18, 1) 100%);
-    padding-top: 5px;
-    padding-bottom: 5px;
+    display: flex;
+    justify-content: space-around;
+    width: 99vw;
+    height: 22vh;
 }
-retirei o logo, tá maito feio
-*/
-
+#nav{
+    padding-left: 20%;
+    width: 50vw;
+}
+ul{
+    padding: 10%;
+    display: flex;
+    flex-direction:row;
+}
+li{
+    font-size: 1.5em;
+    padding-left: 5%;
+    list-style: none;
+    text-decoration: none;
+}
 
 /*pagina inicial*/
 .fundo-tela {
@@ -106,9 +101,6 @@ a {
 }
 
 a:hover {
-    padding-left: 23px;
-    padding-right: 25px;
-    padding-bottom: 10px;
     box-shadow: 2px 2px 20px #000000;
 }
 
