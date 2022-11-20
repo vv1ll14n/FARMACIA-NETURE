@@ -10,21 +10,20 @@
 </head>
 
 <body>
-    <main>
+    
         <header>
             <img id="logo" src="/img/LOGO SVG.png" alt="LOGO">
             <div id="nav">
-                <ul>
-                    <li>Quem somos</li>
-                    <li>Produtos</li>
-                    <li>mensagem</li>
-                    <li>Fazer login</li>
-                </ul>
+                <a href="login.html"> login</a>
+                <a href="#quem-somos">Quem somos</a>
+                <a href="#produtos">produtos</a>
+                <a href="#mensagem">Mensagem</a>
             </div>
         </header>
+        <main>
         <!--pagina inicial-->
         <section>
-            <div class="fundo-tela">
+            <div class="fundo-tela" >
                 <div id="fundo-cinza-1">
                     <h1 id="titulo-1">POR UM MUNDO MELHOR</h1>
                     <p id="texto-inicial">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, tempora!
@@ -40,7 +39,7 @@
         </section>
         <!--secao2/ quem somos -->
         <section>
-            <div class="fundo-tela-2">
+            <div class="fundo-tela-2" id="quem-somos">
                 <div id="container-quem-somos">
                     <div id="box-quem-somos">
                         <h1 id="titulo-2">Quem somos</h1>
@@ -68,7 +67,7 @@
         </section>
         <!--seção3/produtos-->
         <section>
-            <div class="container flex-container">
+            <div class="container flex-container" id="produtos">
                 <div class="produtos">
                     <div class="case-produtos">
                         <div class="img-e-botao">
@@ -129,7 +128,7 @@
         </section>
         <!--secao4 / formulário-->
         <section>
-            <div class="fundo-tela-3 formulario">
+            <div class="fundo-tela-3 formulario" id="mensagem">
                 <div class="case-form">
                     <form>
                         <label for="cnome">Nome</label><br>
